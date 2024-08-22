@@ -35,5 +35,9 @@ if __name__ == "__main__":
 
     print(mes2)
 
-    n = input("Fibonacci number: ")
-    print(f"Fibonacci number {n} is: {fibonacci_iterative(int(n))}")
+    n = int(input("Fibonacci number: "))
+
+    if n < 0:
+        print("Please enter a positive integer")
+    else:
+        print(f"Fibonacci number {n} is: {fibonacci_iterative(n)}")
