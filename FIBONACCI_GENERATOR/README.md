@@ -7,12 +7,31 @@
 1. Iterative method
 
 ```bash
-  python fibonacci_iterative.py  # OR: ./fibonacci_iterative.py
+  python3 fibonacci_iterative.py
 ```
+
+* To make the script executable:
+```bash
+  chmod +x ./fibonacci_iterative.py
+```
+* Then you can run your script directly like this:
+```bash
+  ./fibonacci_iterative.py
+```
+
 2. Recursive method
 
 ```bash
-  python fibonacci_recursive.py  # OR: ./fibonacci_recursive.py
+  python3 fibonacci_recursive.py
+```
+
+* To make the script executable:
+```bash
+  chmod +x ./fibonacci_recursive.py
+```
+* Then you can run your script directly like this:
+```bash
+  ./fibonacci_recursive.py
 ```
 
 ## Usage
